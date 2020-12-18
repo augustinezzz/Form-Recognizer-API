@@ -36,7 +36,7 @@ The Receipt Analyzer API makes use of the Form Recognizer API v2.1 developed by 
 
 1. Use the endpoint given below
 ```
-206.189.192.25:3000/analyzereceipt
+206.189.192.25:3000/getreceiptdetails
 
 ```
 2. Include the operation id recieved from the POST request in the body of the get request.
@@ -168,7 +168,7 @@ The Layout Analyzer API makes use of the Form Recognizer API v2.1 developed by M
 #### POST Analyze input receipt 
 1. Use the endpoint given below
 ```
-206.189.192.25:3000/analyzereceipt
+206.189.192.25:3000/analyzelayout
 
 ```
 2. Include the input image url in JSON or upload the file from your local device
@@ -182,7 +182,7 @@ The Layout Analyzer API makes use of the Form Recognizer API v2.1 developed by M
 #### POST Analyze input receipt 
 1. Use the endpoint given below
 ```
-206.189.192.25:3000/analyzereceipt
+206.189.192.25:3000/getlayoutdetails
 
 ```
 2. Include the operation id recieved from the POST request in the body of the get request.
